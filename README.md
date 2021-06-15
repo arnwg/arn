@@ -18,10 +18,11 @@ The repository contains the following folders:
 - **Contamination**, the code to run experiments with dataset contamination for each dataset;
 - **Weak_Supervision**, the code to run the models with weak supervision approach for each dataset;
 - **GENERATION_KDDCUP99REV**, the code used to create Real and generated anomalies in $KDDCUP99_{Rev}$;
-- **Competitors**, the code to execute experiments for competitors;
-- **models**, the pre-trained models produced by ARN notebooks.
+- **Competitors**, the code to execute experiments for competitors.
 
 Each folder contains the code in jupyter notebooks. The first cell contains the import statement with the libraries used in the notebook and the environment variable to activate the GPU device. The last cell contains the code to print the results.
+
+The pre-trained models produced by ARN notebooks area available to [link](https://www.dropbox.com/sh/ll79r0x378j5me9/AABHU-znW3v06urtTdwcgkJka?dl=0)
 
 The following table shows the results presented in the paper.
 
