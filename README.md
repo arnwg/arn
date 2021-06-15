@@ -17,7 +17,9 @@ The repository contains the following folders:
 - **ARN_mnist**, the code for experimets on MNIST dataset;
 - **Contamination**, the code to run experiments with dataset contamination for each dataset;
 - **Weak_Supervision**, the code to run the models with weak supervision approach for each dataset;
-- **Competitors**, the code to execute experiments for competitors.
+- **GENERATION_KDDCUP99REV**, the code used to create Real and generated anomalies in $KDDCUP99_{Rev}$;
+- **Competitors**, the code to execute experiments for competitors;
+- **models**, the pre-trained models produced by ARN notebooks.
 
 Each folder contains the code in jupyter notebooks. The first cell contains the import statement with the libraries used in the notebook and the environment variable to activate the GPU device. The last cell contains the code to print the results.
 
