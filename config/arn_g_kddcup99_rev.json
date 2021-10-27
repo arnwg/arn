@@ -1,0 +1,26 @@
+{
+  "DATASET_AREA": "./Dataset",
+  "FILE_NAME": "kddcup.data_10_percent_corrected",
+  "DATASET_NAME": "KDDCUP99_Rev",
+  "DATASET_NAME_ASS": "KDDCUP99_Rev",
+
+  "SPACE_MODELS" : "/mnt/nas/arnwg/model_results/ARN_G_KDDCUP99_REV",
+  "SPACE_AUC" : "./auc",
+  "SPACE_AUPRC": "./auprc",
+
+  "MODEL_PATH": "models.arn_g.trainer.ARN_G",
+  "MODEL_NAME": "ARN_G",
+
+  "seed": 1234,
+  "batch_size": 1024,
+  "num_epochs": 400,
+  "n_runs": 20,
+  "scale": 1,
+  "is_reconstruction_score": 0,
+  "show": 1,
+
+  "lr_D": 1e-5,
+  "lr_G": 1e-4
+
+
+}

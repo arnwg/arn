@@ -1,0 +1,28 @@
+{
+  "DATASET_AREA": "/mnt/nas/arnwg/CIRA-CIC-DoHBrw-2020",
+  "FILE_NAME": "l2-benign.csv",
+  "FILE_NAME_2": "l2-malicious.csv",
+  "DATASET_NAME": "DoH_INV",
+  "DATASET_NAME_ASS": "DoH_INV",
+
+  "SPACE_MODELS" : "/mnt/nas/arnwg/model_results/ARN_N_KLD_DoH_INV",
+  "SPACE_AUC" : "./auc",
+  "SPACE_AUPRC": "./auprc",
+
+  "MODEL_PATH": "models.arn_n_kld.trainer.ARN_N_KLD",
+  "MODEL_NAME": "ARN_N_KLD",
+
+  "seed": 1234,
+  "batch_size": 1024,
+  "num_epochs": 1500,
+  "n_runs": 20,
+  "scale": 1,
+  "is_reconstruction_score": 0,
+  "show": 1,
+
+  "lr_D": 1e-5,
+  "lr_G": 1e-4,
+  "n_gpu": "0"
+
+
+}

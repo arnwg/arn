@@ -1,0 +1,28 @@
+{
+  "DATASET_AREA": "/mnt/nas/arnwg/Bank",
+  "FILE_NAME": "bank-additional-ful-nominal.arff",
+  "DATASET_NAME": "Bank_Weak1",
+  "DATASET_NAME_ASS": "Bank",
+
+  "SPACE_MODELS" : "/mnt/nas/arnwg/model_results/ARN_N_noT_Bank_Weak1",
+  "SPACE_AUC" : "./auc",
+  "SPACE_AUPRC": "./auprc",
+
+  "MODEL_PATH": "models.arn_n_noT.trainer_weak.ARN_N",
+  "MODEL_NAME": "ARN_N_noT",
+
+  "seed": 1234,
+  "batch_size": 1024,
+  "num_epochs": 400,
+  "n_runs": 20,
+  "scale": 1,
+  "is_reconstruction_score": 0,
+  "show": 1,
+  "percAnomalies": 0.01,
+  "weak_supervision": 1,
+
+  "lr_D": 1e-4,
+  "lr_G": 1e-3,
+  "n_gpu": "0"
+
+}

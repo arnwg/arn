@@ -1,0 +1,27 @@
+{
+  "DATASET_AREA": "/mnt/nas/arnwg/CoverType",
+  "FILE_NAME": "covtype.data",
+  "DATASET_NAME": "CoverType",
+  "DATASET_NAME_ASS": "CoverType",
+
+  "SPACE_MODELS" : "/mnt/nas/arnwg/model_results/ARN_N_KLD_CoverType",
+  "SPACE_AUC" : "./auc",
+  "SPACE_AUPRC": "./auprc",
+
+  "MODEL_PATH": "models.arn_n_kld.trainer.ARN_N_KLD",
+  "MODEL_NAME": "ARN_N_KLD",
+
+  "seed": 1234,
+  "batch_size": 1024,
+  "num_epochs": 50,
+  "n_runs": 20,
+  "scale": 1,
+  "is_reconstruction_score": 0,
+  "show": 1,
+
+  "lr_D": 1e-4,
+  "lr_G": 1e-4,
+  "n_gpu": "0"
+
+
+}

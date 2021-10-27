@@ -1,0 +1,30 @@
+{
+  "DATASET_AREA": "/mnt/nas/arnwg/CIRA-CIC-DoHBrw-2020",
+  "FILE_NAME": "l2-benign.csv",
+  "FILE_NAME_2": "l2-malicious.csv",
+  "DATASET_NAME": "DoH_CONTA75",
+  "DATASET_NAME_ASS": "DoH",
+
+  "SPACE_MODELS" : "/mnt/nas/arnwg/model_results/ARN_G_DoH_CONTA75",
+  "SPACE_AUC" : "./auc",
+  "SPACE_AUPRC": "./auprc",
+
+  "MODEL_PATH": "models.arn_g.trainer.ARN_G",
+  "MODEL_NAME": "ARN_G",
+
+  "seed": 1234,
+  "batch_size": 1024,
+  "num_epochs": 1000,
+  "n_runs": 20,
+  "scale": 1,
+  "is_reconstruction_score": 0,
+  "show": 1,
+  "percAnomalies": 0.25,
+  "contamination": 1,
+
+  "lr_D": 1e-5,
+  "lr_G": 1e-4,
+  "n_gpu": "0"
+
+
+}
