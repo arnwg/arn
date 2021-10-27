@@ -20,7 +20,7 @@ The repository contains the following folders:
 - **GENERATION_KDDCUP99REV**, the code used to create Real and generated anomalies in $KDDCUP99_{Rev}$;
 - **Competitors**, the code to execute experiments for competitors.
 
-Each jupyter notebook file containse the code to run all experiments presented in the paper. The first cell contains a call to main.py module that import the libraries used in the notebook and set the environment variable to activate the GPU device. The last cell contains the code to print the results.
+Each jupyter notebook file contains the code to run the experiments presented in the paper. The first cell contains a call to main.py module that import the libraries used in the notebook and set the environment variable to activate the GPU device. The last cell contains the code to print the results.
 
 The pre-trained models produced by ARN notebooks area available to [link](https://www.dropbox.com/sh/ll79r0x378j5me9/AABHU-znW3v06urtTdwcgkJka?dl=0)
 
